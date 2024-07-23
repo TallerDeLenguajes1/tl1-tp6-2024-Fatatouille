@@ -9,7 +9,7 @@ Console.WriteLine("valor de a:"+a);
 Console.WriteLine("valor de b:"+b);
 */
 
-/* EJERCICIO 1
+// EJERCICIO 1
 
 int invertir, aux, res=0;
 Console.WriteLine("Ingrese un número: ");
@@ -27,5 +27,5 @@ if (int.TryParse(Console.ReadLine(), out invertir)){
     }
 }else{
     Console.WriteLine("No se ingreso un numero");
-}*/
+}
 
