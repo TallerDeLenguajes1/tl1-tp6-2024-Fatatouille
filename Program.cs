@@ -9,23 +9,15 @@ Console.WriteLine("valor de a:"+a);
 Console.WriteLine("valor de b:"+b);
 */
 
-// EJERCICIO 1
-
-int invertir, aux, res=0;
-Console.WriteLine("Ingrese un número: ");
-if (int.TryParse(Console.ReadLine(), out invertir)){
-    if(invertir>0){
-        aux=invertir;
-        while(aux>0){
-            res=res*10+(aux%10);
-            aux = aux/10;
-        }
-        Console.WriteLine($"El número que quiere invertir es {invertir}");
-        Console.WriteLine($"El número invertido es {res}");
-    }else{
-        Console.WriteLine("El numero ingresado es negativo");
-    }
-}else{
-    Console.WriteLine("No se ingreso un numero");
+// EJERCICIO 4
+Console.WriteLine("Cadena: ");
+string cc = Console.ReadLine();
+int longitud = cc.Length;
+Console.WriteLine(longitud);
+Console.WriteLine("Cadena 2: ");
+string cc2 = Console.ReadLine(), combina= cc+cc2;
+Console.WriteLine(combina);
+foreach (var letra in combina)
+{
+    Console.WriteLine(letra);    
 }
-
